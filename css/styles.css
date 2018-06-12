@@ -1,0 +1,75 @@
+body{
+  font-family: 'Sunflower', sans-serif;
+}
+
+.main-container article{
+  position: absolute;
+  top: 4%;
+  bottom: 30px;
+  right:13%;
+  overflow-y: scroll;
+  max-width: 40%;
+  color:#2d3c49;
+  -webkit-box-shadow: 0 0 10px #e0e0e0;
+  -moz-box-shadow: 0 0 10px #e0e0e0;
+  box-shadow: 0 0 10px #e0e0e0;
+  padding: 10px;
+  border-radius:8px
+}
+
+article img{
+  max-width: 40%;
+  float:left;
+  margin-right:20px
+}
+
+article h2{
+  margin-bottom:0
+}
+
+article p{
+  margin-top:5;
+  margin-bottom:30px;
+}
+
+article section{
+  margin-bottom:30px;
+  border-bottom: 2px solid #e3eef1;
+}
+
+article section:nth-child(6){
+  margin-bottom:0px;
+  border:none;
+}
+
+
+.main aside {
+    float:left!important;
+    border-top: 20px solid #02b3e4;
+    -webkit-box-shadow: 0 0 10px #e0e0e0;
+    -moz-box-shadow: 0 0 10px #e0e0e0;
+    box-shadow: 0 0 10px #e0e0e0;
+    background: #fff;
+    color:#7d97ad;
+    border-radius:8px
+}
+
+.main aside{
+  font-weight:bold
+}
+
+.position{
+  max-width:5%;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+@media screen and (max-width:767px){
+  .main-container article{
+    top: 51%;
+    max-width: 85%;
+    margin:0 auto;
+    right:auto
+  }
+}
